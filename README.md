@@ -1,14 +1,8 @@
-# Retail-Sales-Analysis
-Business Intelligence &amp; Data Analytics Project using SQL Server, Python, Pandas, NumPy and Matplotlib,Seaborn.
-
-
-
-
 # Retail Sales Analytics Project
 
 ## Project Overview
 
-This project analyzes retail sales data from a US-based Superstore to uncover business insights related to sales performance, profitability, customer behavior, shipping preferences, and regional performance.
+This project analyzes retail sales data from a US-based Superstore dataset to uncover insights related to sales performance, profitability, customer behavior, shipping preferences, and regional performance.
 
 The objective was to simulate the role of a Business Intelligence Analyst by transforming raw transactional data into actionable business recommendations using SQL, Python, Pandas, NumPy, Matplotlib, and business storytelling techniques.
 
@@ -31,7 +25,6 @@ Management wants to understand:
 
 * **Source:** Sample Superstore Dataset
 * **Total Records:** 9,994 transactions
-* **Time Period:** Multiple years of retail sales data
 * **Data Cleaning:** Duplicate records removed and data validated before analysis
 
 ### Dataset Contains
@@ -88,7 +81,7 @@ Management wants to understand:
 ### Customer Analysis
 
 * Which customer segment contributes the highest profit?
-* What shipping mode is most preferred?
+* Which shipping mode is most preferred?
 
 ### Financial Analysis
 
@@ -101,7 +94,7 @@ Management wants to understand:
 
 ## Region × Category Profit Heatmap
 
-![Region Category Heatmap](Retail-Sales-Analytics/images/region_category_heatmap.png)
+![Region Category Heatmap](./Retail-Sales-Analytics/images/region_category_heatmap.png)
 
 **Insight:** Technology consistently generates strong profits across regions, while some Furniture combinations underperform.
 
@@ -109,7 +102,7 @@ Management wants to understand:
 
 ## Discount vs Profit Analysis
 
-![Discount Profit Bubble Chart](Retail-Sales-Analytics/images/discount_profit_bubble.png)
+![Discount Profit Bubble Chart](./Retail-Sales-Analytics/images/discount_profit_bubble.png)
 
 **Insight:** Higher discounts do not always increase profitability. Excessive discounting often reduces profit margins.
 
@@ -117,7 +110,7 @@ Management wants to understand:
 
 ## State Profit Analysis
 
-![State Profit Heatmap](Retail-Sales-Analytics/images/state_profit_heatmap.png)
+![State Profit Heatmap](./Retail-Sales-Analytics/images/state_profit_heatmap.png)
 
 **Insight:** California and New York are among the strongest profit-generating states, while Texas and Ohio show significant losses.
 
@@ -125,7 +118,7 @@ Management wants to understand:
 
 ## Sales vs Profit by Sub-Category
 
-![Sales Profit Subcategory](Retail-Sales-Analytics/images/sales_profit_subcategory.png)
+![Sales Profit Subcategory](./Retail-Sales-Analytics/images/sales_profit_subcategory.png)
 
 **Insight:** Some sub-categories achieve high sales but generate relatively low profits, indicating pricing and cost optimization opportunities.
 
@@ -133,7 +126,7 @@ Management wants to understand:
 
 ## Top 10 Cities by Sales
 
-![Top Cities Sales](Retail-Sales-Analytics/images/top10_cities_sales.png)
+![Top Cities Sales](./Retail-Sales-Analytics/images/top10_cities_sales.png)
 
 **Insight:** Major metropolitan cities contribute a significant share of company revenue.
 
@@ -170,23 +163,10 @@ Retail-Sales-Analysis/
 │
 └── Retail-Sales-Analytics/
     ├── data/
-    │   └── SampleSuperstore.csv
-    │
     ├── images/
-    │   ├── discount_profit_bubble.png
-    │   ├── region_category_heatmap.png
-    │   ├── sales_profit_subcategory.png
-    │   ├── state_profit_heatmap.png
-    │   └── top10_cities_sales.png
-    │
     ├── notebooks/
-    │   └── sales_analysis.ipynb
-    │
     ├── presentation/
-    │   └── project.pptx
-    │
     └── sql/
-        └── business_queries.sql
 ```
 
 ---
@@ -221,6 +201,6 @@ Retail-Sales-Analysis/
 
 **Muskan Pandit**
 
-B.Tech Information Technology Student
+B.Tech Computer Science Student
 
-Aspiring Data Analyst | SQL | Python | Pandas | NumPy | Power BI | Data Visualization | Seaborn
+Aspiring Data Analyst | SQL | Python | Pandas | NumPy | Power BI | Data Visualization
