@@ -221,6 +221,6 @@ Retail-Sales-Analysis/
 
 **Muskan Pandit**
 
-B.Tech Computer Science Student
+B.Tech Information Technology Student
 
-Aspiring Data Analyst | SQL | Python | Pandas | NumPy | Power BI | Data Visualization
+Aspiring Data Analyst | SQL | Python | Pandas | NumPy | Power BI | Data Visualization | Seaborn
