@@ -1,5 +1,9 @@
 # Retail-Sales-Analysis
 Business Intelligence &amp; Data Analytics Project using SQL Server, Python, Pandas, NumPy and Matplotlib,Seaborn.
+
+
+
+
 # Retail Sales Analytics Project
 
 ## Project Overview
@@ -18,19 +22,19 @@ Management wants to understand:
 * Which product categories and sub-categories perform best?
 * How do discounts impact profitability?
 * Which customer segments contribute the most profit?
-* What shipping modes are most preferred by customers?
+* Which shipping modes are most preferred by customers?
 * Which areas of the business require strategic attention?
 
 ---
 
 ## Dataset Information
 
-* Source: Sample Superstore Dataset
-* Total Records: 9,994 transactions
-* Time Period: Multiple years of retail sales data
-* Data Cleaning: Duplicate records removed and data validated before analysis
+* **Source:** Sample Superstore Dataset
+* **Total Records:** 9,994 transactions
+* **Time Period:** Multiple years of retail sales data
+* **Data Cleaning:** Duplicate records removed and data validated before analysis
 
-Dataset contains:
+### Dataset Contains
 
 * Orders
 * Customers
@@ -58,11 +62,11 @@ Dataset contains:
 
 ## Key Performance Indicators (KPIs)
 
-| KPI          | Value        |
-| ------------ | ------------ |
-| Total Sales  | ₹22.96 Lakhs |
-| Total Profit | ₹2.86 Lakhs  |
-| Total Orders | 9,977        |
+| KPI          | Value      |
+| ------------ | ---------- |
+| Total Sales  | 22.96 Lakh |
+| Total Profit | 2.86 Lakh  |
+| Total Orders | 9,977      |
 
 ---
 
@@ -93,43 +97,43 @@ Dataset contains:
 
 ---
 
-## Visualizations
+# Visualizations
 
-### Region × Category Profit Heatmap
+## Region × Category Profit Heatmap
 
-![Region Category Heatmap](images/region_category_heatmap.png)
+![Region Category Heatmap](Retail-Sales-Analytics/images/region_category_heatmap.png)
 
 **Insight:** Technology consistently generates strong profits across regions, while some Furniture combinations underperform.
 
 ---
 
-### Discount vs Profit Analysis
+## Discount vs Profit Analysis
 
-![Discount Profit Bubble Chart](images/discount_profit_bubble.png)
+![Discount Profit Bubble Chart](Retail-Sales-Analytics/images/discount_profit_bubble.png)
 
 **Insight:** Higher discounts do not always increase profitability. Excessive discounting often reduces profit margins.
 
 ---
 
-### State Profit Analysis
+## State Profit Analysis
 
-![State Profit Heatmap](images/state_profit_heatmap.png)
+![State Profit Heatmap](Retail-Sales-Analytics/images/state_profit_heatmap.png)
 
-**Insight:** California and New York are the strongest profit-generating states, while Texas and Ohio show significant losses.
-
----
-
-### Sales vs Profit by Sub-Category
-
-![Sales Profit Subcategory](images/sales_profit_subcategory.png)
-
-**Insight:** Some sub-categories achieve high sales but generate relatively low profits, indicating pricing or cost optimization opportunities.
+**Insight:** California and New York are among the strongest profit-generating states, while Texas and Ohio show significant losses.
 
 ---
 
-### Top 10 Cities by Sales
+## Sales vs Profit by Sub-Category
 
-![Top Cities Sales](images/top10_cities_sales.png)
+![Sales Profit Subcategory](Retail-Sales-Analytics/images/sales_profit_subcategory.png)
+
+**Insight:** Some sub-categories achieve high sales but generate relatively low profits, indicating pricing and cost optimization opportunities.
+
+---
+
+## Top 10 Cities by Sales
+
+![Top Cities Sales](Retail-Sales-Analytics/images/top10_cities_sales.png)
 
 **Insight:** Major metropolitan cities contribute a significant share of company revenue.
 
@@ -159,28 +163,30 @@ Dataset contains:
 ## Project Structure
 
 ```text
-Retail-Sales-Analytics/
+Retail-Sales-Analysis/
 │
-├── data/
-│   └── SampleSuperstore.csv
+├── README.md
+├── .gitignore
 │
-├── images/
-│   ├── discount_profit_bubble.png
-│   ├── region_category_heatmap.png
-│   ├── sales_profit_subcategory.png
-│   ├── state_profit_heatmap.png
-│   └── top10_cities_sales.png
-│
-├── notebooks/
-│   └── sales_analysis.ipynb
-│
-├── presentation/
-│   └── project.pptx
-│
-├── sql/
-│   └── business_queries.sql
-│
-└── README.md
+└── Retail-Sales-Analytics/
+    ├── data/
+    │   └── SampleSuperstore.csv
+    │
+    ├── images/
+    │   ├── discount_profit_bubble.png
+    │   ├── region_category_heatmap.png
+    │   ├── sales_profit_subcategory.png
+    │   ├── state_profit_heatmap.png
+    │   └── top10_cities_sales.png
+    │
+    ├── notebooks/
+    │   └── sales_analysis.ipynb
+    │
+    ├── presentation/
+    │   └── project.pptx
+    │
+    └── sql/
+        └── business_queries.sql
 ```
 
 ---
@@ -188,12 +194,15 @@ Retail-Sales-Analytics/
 ## Skills Demonstrated
 
 * SQL Query Writing
-* Business KPI Analysis
+* Data Analysis
+* Business Intelligence
 * Data Cleaning
 * Exploratory Data Analysis (EDA)
 * Data Visualization
 * Business Storytelling
 * Profitability Analysis
+* KPI Analysis
+* Git Version Control
 * GitHub Project Documentation
 
 ---
@@ -210,8 +219,8 @@ Retail-Sales-Analytics/
 
 ## Author
 
-**Kavya**
+**Muskan Pandit**
 
 B.Tech Computer Science Student
 
-Aspiring Data Analyst | SQL | Python | Excel | Power BI
+Aspiring Data Analyst | SQL | Python | Pandas | NumPy | Power BI | Data Visualization
